@@ -32,8 +32,6 @@
     if (self) {
         self.value = initialValue;
         self.scalingValue = 15;
-        self.defaultColor = [UIColor blueColor];
-        self.matchedValueColor = [UIColor redColor];
         self.active = true;
         self.minimumValue = nil;
         [self setTitle:[@(self.value) stringValue] forState:UIControlStateNormal];
