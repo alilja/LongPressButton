@@ -35,10 +35,6 @@
 
 @property int value;
 
-#pragma mark Display settings
-@property UIColor *matchedValueColor;
-@property UIColor *defaultColor;
-
 #pragma mark Behavior settings
 @property float scalingValue;
 @property BOOL active;
